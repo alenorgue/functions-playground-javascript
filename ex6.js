@@ -4,10 +4,10 @@
  */
 
 function sphereArea(radius) {
-    // COMPLETAME
-    return;
+    let area = 4 * Math.PI * (radius * radius);
+    return area;
 }
 
 console.log("Area de la esfera para el valor 1: ", sphereArea(1));  // ≈ 12.5664
 console.log("Area de la esfera para el valor 3: ", sphereArea(3));  // ≈ 113.097
-console.log("Area de la esfera para el valor 3: ", sphereArea(5));  // ≈ 314.159
+console.log("Area de la esfera para el valor 5: ", sphereArea(5));  // ≈ 314.159

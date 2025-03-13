@@ -13,3 +13,14 @@ function rollDice() {
  */
 
 // Tu código a partir de aquí
+
+function sumaDados() {
+    let dado1 = rollDice();
+    let dado2 = rollDice();
+    let resultado = dado1 + dado2;
+    
+    console.log(`Dado 1: ${dado1}, Dado 2: ${dado2}, Resultado: ${resultado}`);
+}
+
+// Invocar la función para mostrar el resultado
+sumaDados();
